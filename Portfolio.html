@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Ambica Deepthi Gummadi</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm a Student.</p>
+            <button onclick="window.location.href='#projects'">View My Work</button>
+        </div>
+    </section>
+
+    <section id="about" class="about b">
+        <h2>About Me</h2>
+        <p>I am Ambica Deepthi,currently pursuing fourth year B.Tech.
+            I have good Knowledge in python and C programming and coming to my skills,
+            I am at intermediate level in HTML,CSS and a Beginner in JavaScript and ReactJS.
+            <h3>Certifications</h3>
+            <ul>
+                <li>I have got Participation certificate in 2-Day BOOTCAMP and 24 hour Hackathon on full stack development organized by brainovision solutions</li>
+                <li>I have also cs50 Introduction to python programming certificate. </li>
+            </ul>
+        </p>
+    </section>
+
+    <section id="projects" class="projects b1">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>My first project is a basic Registration Page.
+                    It will have fields to enter user name,password,
+                    gender,languages Known,and an Address field.
+                </p>
+                <button type="button"><a href="p1.html" style="text-decoration: none;">See Project-1</a></button>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>My Project 2 is a non-themed website,with some webpages such as 
+                    Home,About,Contact,Register and Login pages.
+                </p>
+                <button type="button"><a href="p2.html" style="text-decoration: none;">See Project-2</a></button>
+            </div>
+            <div class="project-item">
+                <h3>Project 3</h3>
+                <p>My Project 3 is a product showcase website that is a Bakery website,with some webpages such as 
+                    Home,Order,About,Contact,Register and Login pages.
+                </p>
+                <button type="button"><a href="p3.html" style="text-decoration: none;">See Project-3</a></button>
+            </div>
+            <div class="project-item">
+                <h3>Project 4</h3>
+                <p>My Project 4 is Just project 3 with some Updations,that is using
+                    javaScript Validations,BootStarp,Media Queries and so on.
+                </p>
+                <button type="button"><a href="p4.html" style="text-decoration: none;">See Project-4</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact c">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
