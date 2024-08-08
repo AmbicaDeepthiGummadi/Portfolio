@@ -32,22 +32,6 @@ nav {
     margin: 0;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin-left: 2rem;
-}
-
-.nav-links a {
-    color: #ec08c2;
-    text-decoration: none;
-}
-
 .hero {
     background: url('hero.jpg');
     height: 100vh;
