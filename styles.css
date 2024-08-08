@@ -89,6 +89,15 @@ nav {
     margin-bottom: 2rem;
 }
 
+p{
+    margin-top:5%;
+    margin-left:20%;
+    margin-right:20%;
+}
+h3{
+    color:deeppink;
+}
+
 .project-list {
     display: flex;
     justify-content: space-around;
