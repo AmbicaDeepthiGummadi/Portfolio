@@ -100,6 +100,8 @@ h3{
 
 .button{
     background-color:darkorange;
+    color: black;
+    border-radius:8px;
 }
 
 .project-list {
@@ -136,6 +138,7 @@ h3{
     background-color: green;
     color: #fff;
     border: none;
+    border-radius:12px;
     padding: 1rem 2rem;
     font-size: 1rem;
     cursor: pointer;
