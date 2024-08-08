@@ -70,11 +70,11 @@ nav {
     cursor: pointer;
 }
 .about {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('image.jprg') no-repeat center center/cover;
 }
 
 .projects {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('image.jpg') no-repeat center center/cover;
 }
 
 .contact {
