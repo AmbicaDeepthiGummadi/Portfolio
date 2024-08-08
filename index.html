@@ -12,7 +12,7 @@
 }
 
 /* Navbar links */
-.topnav a {
+.topnav a ul li{
   float: left;
   display: block;
   color: white;
@@ -23,7 +23,7 @@
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .topnav a {
+  .topnav a ul li{
     float: none;
     width: 100%;
   }
@@ -36,7 +36,7 @@
             <div class="logo">
                 <h1>Ambica Deepthi Gummadi</h1>
             </div>
-            <ul class="nav-links topnav">
+            <ul class="topnav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
