@@ -69,7 +69,17 @@ nav {
     font-size: 1rem;
     cursor: pointer;
 }
+.about {
+    background: url('hero.jpg') no-repeat center center/cover;
+}
 
+.projects {
+    background: url('hero.jpg') no-repeat center center/cover;
+}
+
+.contact {
+    background: url('im.jpg') no-repeat center center/cover;
+}
 .about, .projects, .contact {
     padding: 2rem;
     text-align: center;
