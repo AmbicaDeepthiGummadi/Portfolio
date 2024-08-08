@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
@@ -130,7 +130,7 @@ h3{
 }
 
 .form-group input, .form-group textarea {
-    width: 50%;
+    width: 60%;
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius:12px
