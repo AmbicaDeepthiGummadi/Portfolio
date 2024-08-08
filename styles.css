@@ -98,6 +98,10 @@ h3{
     color:deeppink;
 }
 
+.button{
+    background-color:darkorange;
+}
+
 .project-list {
     display: flex;
     justify-content: space-around;
@@ -129,14 +133,14 @@ h3{
 }
 
 .contact button {
-    background-color: #ff6347;
+    background-color: green;
     color: #fff;
     border: none;
     padding: 1rem 2rem;
     font-size: 1rem;
     cursor: pointer;
     display: block;
-    width: 100%;
+    width: 60%;
 }
 
 footer {
